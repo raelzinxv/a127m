@@ -15,7 +15,7 @@ jobs:
           kernel-branch: main
           config: exynos850-a12snsxx_defconfig
           arch: arm64
-          aosp-gcc: true
-          aosp-clang: true
+          aosp-gcc: false
+          aosp-clang: false
           android-version: 12
           aosp-clang-version: r383902
