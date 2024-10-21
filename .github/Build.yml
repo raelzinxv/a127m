@@ -11,9 +11,9 @@ jobs:
       - name: Build
         uses: dabao1955/kernel_build_action@main
         with:
-          kernel-url: https://github.com/AcmeUI-Devices/android_kernel_xiaomi_cas
-          kernel-branch: taffy
-          config: cas_defconfig
+          kernel-url: https://github.com/frnk333/ultrakernel
+          kernel-branch: main
+          config: exynos850-a12snsxx_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
